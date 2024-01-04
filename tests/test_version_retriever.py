@@ -4,9 +4,7 @@ from typing import Type
 
 import pytest
 
-from macpyver_core.macpyver import MacPyVer
-from macpyver_core.model import Software
-from macpyver_core.version_source import VersionSource
+from macpyver_core import MacPyVer, Software, VersionSource
 
 
 @pytest.mark.parametrize(

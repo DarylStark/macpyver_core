@@ -6,8 +6,8 @@ from typing import Type
 
 import pytest
 
-from macpyver_core.model import Software, Version
-from macpyver_core.version_source import VersionSource
+from macpyver_core import Software, VersionSource
+from macpyver_core.model import Version
 
 
 @pytest.fixture
