@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "macpyver_core"
-version = "0.0.1-dev"
+version = "1.0.0"
 description = "Core library for MacPyVer."
 authors = ["Daryl Stark <daryl@dstark.nl>"]
 license = "MIT"
@@ -41,7 +41,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.bumpver]
-current_version = "0.0.1-dev"
+current_version = "1.0.0"
 version_pattern = "MAJOR.MINOR.PATCH[-TAG]"
 commit_message = "Version {new_version}"
 commit = true
