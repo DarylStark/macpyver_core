@@ -1,4 +1,5 @@
 """PyTest fixtures and configuration."""
+# pylint: disable=too-few-public-methods
 
 from datetime import datetime
 from typing import Type
@@ -21,7 +22,7 @@ def source() -> Type[VersionSource]:
         """Test VersionSource for unit testing."""
 
         def get_all_versions(self) -> list[Version]:
-            """Returns test versions for test software.
+            """Return test versions for test software.
 
             Returns:
                 A list of test versions. These are not retrieved from the

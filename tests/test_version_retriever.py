@@ -1,6 +1,5 @@
 """Tests to test the MacPyVer class."""
 
-from datetime import datetime
 from typing import Type
 
 import pytest
@@ -19,7 +18,7 @@ from macpyver_core.version_source import VersionSource
         (3, '1.1.1-dev', 2022, 1, 12),
     ]
 )
-def test_macpyver_class(
+def test_macpyver_class(  # pylint: disable=too-many-arguments
     software: Software,
     source: Type[VersionSource],
     index: int,
@@ -36,6 +35,11 @@ def test_macpyver_class(
     Args:
         software: a test Software object.
         source: a test VersionSource object.
+        index: the index of the returnlist to test.
+        version: the version to test
+        year: the year of the version to test.
+        month: the month of the version to test.
+        day: the day of the version to test.
     """
     macpyver = MacPyVer(software=software, version_source=source)
     versions = macpyver.get_all_versions()
