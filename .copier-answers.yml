@@ -1,0 +1,19 @@
+# Changes here will be overwritten by Copier
+_commit: 9781ffa
+_src_path: https://github.com/DarylStark/copier_templates.git
+devcontainer: true
+github_workflow: true
+license: MIT
+package_name: macpyver_core
+project_description: 'Core library for MacPyVer. This library contains all the logic
+    to work with sources to retrieve software version information from different sources.
+    These sources should be installed as plugins.
+
+    '
+project_description_short: 'Core library for MacPyVer.
+
+    '
+project_name: MacPyVer Core
+pypi_package_description: Core library for MacPyVer.
+pypi_package_name: macpyver_core
+sphinx_docs: true
