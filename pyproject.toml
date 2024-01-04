@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "macpyver_core"
+name = "macpyver-core"
 version = "1.0.0"
 description = "Core library for MacPyVer."
 authors = ["Daryl Stark <daryl@dstark.nl>"]
