@@ -9,6 +9,7 @@ packages = [{ include = "macpyver_core", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pydantic = "^2.5.3"
 
 [tool.poetry.group.dev]
 optional = true
